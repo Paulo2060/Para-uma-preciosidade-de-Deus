@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Para uma Princesa</title>
+<style>
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Georgia', serif;
+/* Mudança para Fundo Preto/Escuro */
+background: linear-gradient(135deg, #121212, #1a1a1a, #2d141a);
+color: #f5f5f5;
+padding: 30px 15px;
+min-height: 100vh;
+}
+
+.container {
+max-width: 900px;
+margin: 0 auto;
+padding: 30px;
+/* Container em tom escuro com borda sutil rosa */
+background: #1e1e1e;
+border-radius: 16px;
+border: 1px solid rgba(255, 70, 130, 0.2);
+box-shadow: 0 0 40px rgba(234, 92, 126, 0.25);
+animation: fadeIn 1.2s ease-in-out;
+}
+
+header {
+text-align: center;
+margin-bottom: 50px;
+}
+
+header h1 {
+font-family: 'Great Vibes', cursive;
+font-size: 3.5em;
+color: #ff4682; /* Rosa Vibrante */
+margin-bottom: 10px;
+text-shadow: 0 0 10px rgba(255, 70, 130, 0.4);
+}
+
+header p {
+font-size: 1.2em;
+color: #ff8fa3; /* Rosa Claro */
+}
+
+.qualidade {
+margin-bottom: 40px;
+padding: 20px;
+border-left: 5px solid #ff4682;
+background: #291a1e; /* Bloco escuro com fundo levemente avermelhado/rosa */
+border-radius: 8px;
+animation: fadeInUp 0.8s ease both;
+transition: all 0.3s ease;
+}
+
+.qualidade:hover {
+background: #382027;
+transform: translateX(5px);
+}
+
+.qualidade h2 {
+color: #ff6097;
+font-size: 1.4em;
+margin-bottom: 8px;
+letter-spacing: 1px;
+}
+
+.qualidade p {
+font-size: 1.05em;
+color: #e0e0e0;
+}
+
+.botao-carta {
+display: block;
+margin: 60px auto 20px auto;
+background: #ff4682;
+color: white;
+padding: 15px 35px;
+font-size: 1.2em;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+box-shadow: 0 5px 20px rgba(255, 72, 132, 0.4);
+transition: all 0.3s ease;
+font-weight: bold;
+}
+
+.botao-carta:hover {
+background: #e03570;
+transform: scale(1.05);
+box-shadow: 0 5px 25px rgba(255, 72, 132, 0.6);
+}
+
+.carta {
+display: none; /* Alterado para controle mais firme no JS */
+opacity: 0;
+margin-top: 30px;
+padding: 30px;
+background: #291a1e;
+border: 2px dashed #ff4682;
+border-radius: 12px;
+color: #fff;
+font-size: 1.3em;
+text-align: center;
+font-style: italic;
+transition: all 1s ease;
+box-shadow: inset 0 0 15px rgba(255, 70, 130, 0.2);
+}
+
+.carta.aparecer {
+display: block;
+opacity: 1;
+animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translateY(30px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+</style>
+</head>
+<body>
+
+<div style="display: none;">
+<iframe width="0" height="0" src="https://www.youtube.com/embed/_MWEapW4PaE?autoplay=1&loop=1&playlist=_MWEapW4PaE" frameborder="0" allow="autoplay"></iframe>
+</div>
+
+<div class="container">
+<header>
+<h1>Para uma preciosidade de Deus </h1>
+<p>Você pra mim Aline você é um tesouro que DEUS escondeu do mundo e a revelou pra mim no momento certo</p>
+</header>
+
+<div class="qualidade"><h2>VOCÊ É ADORÁVEL</h2><p>Seu jeito doce transforma qualquer momento simples em algo mágico.</p></div>
+<div class="qualidade"><h2>VOCÊ É ADMIRÁVEL</h2><p>Admiro sua força, sua coragem, sua luz e a forma como leva a vida.</p></div>
+<div class="qualidade"><h2>VOCÊ É AFETUOSA</h2><p>Seu carinho aquece meu coração.</p></div>
+<div class="qualidade"><h2>VOCÊ É AMIGÁVEL</h2><p>Você me encanta com sua simpatia e gentileza.</p></div>
+<div class="qualidade"><h2>VOCÊ É AMÁVEL</h2><p>Eu a admiro, respeito e honro. Você é uma mulher amável, impossível não te amar</p></div>
+<div class="qualidade"><h2>VOCÊ É APAIXONANTE</h2><p>Há conexões que não pedem licença, apenas transformam o ambiente SABE. Você é exatamente assim, causou um impacto que o tempo não apagará.</p></div>
+<div class="qualidade"><h2>VOCÊ É ATENCIOSA</h2><p>Você cuida dos detalhes com um coração cheio de zelo.</p></div>
+<div class="qualidade"><h2>VOCÊ É ATRAENTE</h2><p>Sua beleza não está só no seu corpo, mas também na alma que brilha em seus olhos.</p></div>
+<div class="qualidade"><h2>VOCÊ É AUTÊNTICA</h2><p>Você é verdadeira, sincera, e isso te torna ainda mais rara e encantadora..</p></div>
+<div class="qualidade"><h2>VOCÊ É BRILHANTE</h2><p>Sua luz ilumina tudo ao redor, inclusive os meus dias pela nossas ligações e presencialmente.</p></div>
+<div class="qualidade"><h2>VOCÊ É PERFEITA</h2><p>Perfeita não porque não tenha falhas, mas porque é exatamente quem deveria ser, você é única em todos os aspectos.</p></div>
+<div class="qualidade"><h2>VOCÊ É UM DIAMANTE</h2><p>Rara, preciosa e inquebrável, você é um tesouro que vale mais ouro, prata, pedras de Rubis e DIAMANTE.</p></div>
+<div class="qualidade"><h2>VOCÊ É CARINHOSA</h2><p> Você tem o poder de curar e acalmar qualquer dor. UM PODER ENORME!!</p></div>
+<div class="qualidade"><h2>VOCÊ É CATIVANTE</h2><p>Basta sua presença para prender minha atenção.</p></div>
+<div class="qualidade"><h2>VOCÊ É CHARMOSA</h2><p>Seu charme está em cada sorriso, em cada olhar, em cada gesto seu.</p></div>
+<div class="qualidade"><h2>VOCÊ É COLABORATIVA</h2><p>Você faz tudo fluir com leveza quando estamos juntos na companhia um do outro</p></div>
+<div class="qualidade"><h2>VOCÊ É COMPREENSIVA</h2><p>Você me entende e compreende perfeitamente. Com você, sou livre para ser quem sou.</p></div>
+<div class="qualidade"><h2>VOCÊ É CONFIANTE</h2><p>Sua segurança é uma inspiração.</p></div>
+<div class="qualidade"><h2>VOCÊ É DEDICADA</h2><p>Você é uma mulher que supera todas as outras, nenhuma chegaria aos seus pés. E eu sou sortudo por ter você. A prova disso está em Próverbios 31:10</p></div>
+<div class="qualidade"><h2>VOCÊ É DELICADA</h2><p>Seu jeito leve toca o mundo com gentileza e graça.</p></div>
+<div class="qualidade"><h2>VOCÊ É DETERMINADA</h2><p>Você nunca desiste. Acredito fielmente que quando tem que enfrentar um desafio, você atropela.</p></div>
+<div class="qualidade"><h2>VOCÊ É DOCE</h2><p>Seu sorriso tem gosto de poesia, sua presença tem sabor de paz.</p></div>
+<div class="qualidade"><h2>VOCÊ É ELEGANTE</h2><p>Você carrega a beleza da alma com a leveza de quem nasceu para encantar.</p></div>
+<div class="qualidade"><h2>VOCÊ É ENCANTADORA</h2><p>É impossível não se render à sua presença..</p></div>
+<div class="qualidade"><h2>VOCÊ É ESFORÇADA</h2><p>Você se dedica com paixão, e isso torna cada conquista ainda mais bela</p></div>
+<div class="qualidade"><h2>VOCÊ É ESPECIAL</h2><p>Não existe outra como você. Você é uma dádiva única do universo e nessa terra.</p></div>
+<div class="qualidade"><h2>VOCÊ É EXPRESSIVA</h2><p>Seus olhos falam, suas emoções tocam, sua alma dança diante da vida.</p></div>
+<div class="qualidade"><h2>VOCÊ É FASCINANTE</h2><p>Você é como uma história que quero ler mil vezes e descobrir algo novo sempre, todos os dias na real.</p></div>
+<div class="qualidade"><h2>VOCÊ É FEMININA</h2><p>Você é a essência da beleza suave, da força gentil, da ternura.</p></div>
+<div class="qualidade"><h2>VOCÊ É FORTE</h2><p>Sua força não é barulho, é constância.</p></div>
+<div class="qualidade"><h2>VOCÊ É GRACIOSA</h2><p>Tudo em você flui com harmonia. Você é como uma canção suave.</p></div>
+<div class="qualidade"><h2>VOCÊ É INSPIRADORA</h2><p> Na sua presença você me faz querer ser melhor, sonhar mais alto e ser a minha melhor versão para que seja beneficiada pelo meu crescimento.</p></div>
+<div class="qualidade"><h2>VOCÊ É INTELIGENTE</h2><p>Sua mente é linda, e cada conversa com você é um presente.</p></div>
+<div class="qualidade"><h2>VOCÊ É INTERESSANTE</h2><p>Você é um universo de descobertas e encantos que nunca acabam.</p></div>
+<div class="qualidade"><h2>VOCÊ É JUSTA</h2><p>Você busca equilíbrio e verdade, e isso te torna ainda mais nobre.</p></div>
+<div class="qualidade"><h2>VOCÊ É MADURA</h2><p>Você enfrenta os altos e baixos da vida com sabedoria e continua amadurecendo.</p></div>
+<div class="qualidade"><h2>VOCÊ É MAGNÍFICA</h2><p>Magnífica em sua essência e sua energia.</p></div>
+<div class="qualidade"><h2>VOCÊ É MEIGA</h2><p>Com você o mundo é mais suave, mais florido num campo assim sabe.</p></div>
+<div class="qualidade"><h2>VOCÊ É MOTIVADORA</h2><p>Sua existência me impulsiona para ser um Homem melhor, algo que você desperta em mim.</p></div>
+<div class="qualidade"><h2>VOCÊ É NATURAL</h2><p>Você é linda exatamente como é.</p></div>
+<div class="qualidade"><h2>VOCÊ É NOTÁVEL</h2><p>Você não passa despercebida, porque nasceu para brilhar assim como uma estrela, nasceu para vencer.</p></div>
+<div class="qualidade"><h2>VOCÊ É OTIMISTA</h2><p></p></div>
+<div class="qualidade"><h2>VOCÊ É PACIENTE</h2><p>Sua paciência é um abraço, mais sua paciência há limite.</p></div>
+<div class="qualidade"><h2>VOCÊ É RADIANTE</h2><p>Você irradia luz, alegria e vida por onde passa.</p></div>
+<div class="qualidade"><h2>VOCÊ É RESILIENTE</h2><p> Você é forte</p></div>
+<div class="qualidade"><h2>VOCÊ É RESPONSÁVEL</h2><p>Você é um mulherão.</p></div>
+<div class="qualidade"><h2>VOCÊ É SERENA</h2><p>Sua calma transmite paz. </p></div>
+<div class="qualidade"><h2>VOCÊ É SINCERA</h2><p>Com você, tudo é verdadeiro. E isso me traz confiança e paz.</p></div>
+<div class="qualidade"><h2>VOCÊ É SOFISTICADA</h2><p>Seu gosto, seu olhar e sua forma de viver revelam elegância natural.</p></div>
+<div class="qualidade"><h2>VOCÊ É TALENTOSA</h2><p>Seus dons são dádivas. Você transforma o que toca.</p></div>
+<div class="qualidade"><h2>VOCÊ É TOLERANTE</h2><p>Sua capacidade de ouvir e compreender o próximo acalma qualquer coração.</p></div>
+<div class="qualidade"><h2>VOCÊ É TRANQUILA</h2><p>Você é ponto de clareza quando tudo ao redor parece confuso.( transmite segurança nos momentos necessário)</p></div>
+<div class="qualidade"><h2>VOCÊ É ÚNICA</h2><p>Não há ninguém como você, e é isso que te torna tão preciosa.</p></div>
+<div class="qualidade"><h2>VOCÊ É VALOROSA</h2><p>Você tem um coração nobre, digno de toda admiração e respeito.</p></div>
+<div class="qualidade"><h2>VOCÊ É VISIONÁRIA</h2><p>Você enxerga o futuro com esperança e age com propósito.</p></div>
+<div class="qualidade"><h2>VOCÊ É ZELOSA</h2><p>Seu cuidado e atenção me fazem me sentir priveligiado.</p></div>
+<div class="qualidade"><h2>VOCÊ SIMPLESMENTE</h2><p>É uma mulher maravilhosa que não tem comparação no mundo inteiro.</p></div>
+
+<button class="botao-carta" onclick="mostrarCarta()">Clique para ler minha frase</button>
+<div class="carta" id="carta">
+Você é única em todos os aspectos, Aline. Obrigado por ser exatamente quem você é. Nem o Ayrton Senna conseguiria percorrer em suas curvas, pois elas são tão perfeitas que nem o maior astro das pistas conseguiria andar.. as curvas do seu corpo conseguem ser mais perfeitas do que as do Ayrton Senna em Mônaco em 1990.
+</div>
+</div>
+
+<script>
+function mostrarCarta() {
+var carta = document.getElementById("carta");
+carta.classList.add("aparecer");
+}
+</script>
+</body>
+</html>
